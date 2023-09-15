@@ -1,0 +1,51 @@
+.wrapper {
+  display: flex;
+
+}
+
+/* ************************************************************
+サイドバー
+************************************************************ */
+
+.side-bar {
+  width: 300px;
+  height: 100vh;
+  background-color: #253141;
+}
+
+.side-heading {
+  height: 100px;
+  padding: 0 20px;
+}
+
+.side-rooms {
+  background-color: #2f3e51;
+  height: calc( 100vh - 100px);
+  padding: 0 20px;
+}
+
+/* ************************************************************
+メインのチャット画面
+************************************************************ */
+
+.main {
+  width: calc( 100vw - 300px);
+}
+
+.main-heading {
+  height: 100px;
+  background-color: #ffffff;
+  padding: 0 40px;
+}
+
+.main-area {
+  height: calc( 100vh - 100px - 90px );
+  background-color: #fafafa;
+  padding: 46px 40px 0;
+}
+
+.main-footer {
+  height: 90px;
+  background-color: #dddddd;
+  padding: 20px 40px;
+}
