@@ -1,6 +1,6 @@
 <div class="side-heading">
   <div class="heading-user-name">
-    <a href="#">Tom</a>
+    <%= link_to current_user.name, edit_user_path(current_user) %>
   </div>
   <div class="make-chat-btn">
     <a href="#">チャットを作成する</a>
