@@ -6,13 +6,14 @@
 </div>
 
 <div class="main-area">
-  <div class="message">
+  <%# <div class="message">
     <div class="area-name_time">
       <div class="main-area-name">Tom</div>
       <div class="main-area-time">2023/9/15（Sat） 21:45:00</div>
     </div>
     <div class="main-area-chat">おはよう</div>
-  </div>
+  </div> %>
+  <%= render partial: 'message', collection: @messages %>
 </div>
 
 <%= form_with model: [@room, @message], class: 'form', local: true do |f| %>
